@@ -1,14 +1,6 @@
 # created by virtualenv automatically
 .idea
 
-# Cartelle e file da ignorare
-.venv/
-venv/
-env/
-ENV/
-env.bak/
-venv.bak/
-
 # File di configurazione di Python
 *.py[cod]
 *$py.class

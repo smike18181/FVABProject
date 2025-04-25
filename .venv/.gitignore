@@ -1,0 +1,45 @@
+# created by virtualenv automatically
+.idea
+
+# Cartelle e file da ignorare
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# File di configurazione di Python
+*.py[cod]
+*$py.class
+__pycache__/
+.pytest_cache/
+
+# File di configurazione e IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# File di installazione e pacchetti
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# File di log e database
+*.log
+*.sqlite3
+
+# File di ambiente
+.env
+.venv
+.env.local
+.env.development
+.env.test
+.env.production
+
+# File di sistema
+.DS_Store
+Thumbs.db

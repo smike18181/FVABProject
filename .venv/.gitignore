@@ -1,6 +1,3 @@
-# created by virtualenv automatically
-.idea
-
 # File di configurazione di Python
 *.py[cod]
 *$py.class

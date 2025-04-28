@@ -1,50 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="edcf312f-81a3-4917-b550-465b4c7db678" name="Changes" comment="Setup project">
-      <change afterPath="$PROJECT_DIR$/.idea/FVABProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="edcf312f-81a3-4917-b550-465b4c7db678" name="Changes" comment="Setup project pt2">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatasetCreation/FoundedDatasets/AddClassPerson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatasetCreation/FoundedDatasets/AddGTSRB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatasetCreation/FoundedDatasets/CombineDatasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatasetCreation/FoundedDatasets/DownloadDatasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatasetCreation/FoundedDatasets/ExploreLisaClasses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatasetCreation/FoundedDatasets/FromMatToCSV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatasetCreation/FoundedDatasets/PathDatasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatasetCreation/Yolo11Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YoloModel/Video/video1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/smike18181/FVABProject",
-    "accountId": "9e048b08-b99e-442a-a2d0-4921748bd2bf"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;smike18181&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/smike18181/FVABProject&quot;,
+    &quot;accountId&quot;: &quot;9e048b08-b99e-442a-a2d0-4921748bd2bf&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2wDB7AlsEMFAGP10itlnCKjwZ7h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.AddClassPerson.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AddGTSRB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CombineDatasets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DownloadDatasets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExploreDatasets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Explore_datasets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FromMatToCSV.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Yolo11Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/smike18/PycharmProjects/First&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smike18\PycharmProjects\FVABProject\DatasetCreation\FoundedDatasets\COCOfolder" />
+      <recent name="C:\Users\smike18\PycharmProjects\FVABProject\Dataset Creation\FoudedDatasets" />
+      <recent name="C:\Users\smike18\PycharmProjects\FVABProject\YoloModel\Video" />
+      <recent name="C:\Users\smike18\PycharmProjects\FVABProject\YoloModel" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,7 +113,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745566094055</updated>
-      <workItem from="1745566095273" duration="452000" />
+      <workItem from="1745566095273" duration="12368000" />
+      <workItem from="1745716444860" duration="4837000" />
+      <workItem from="1745761555061" duration="112000" />
+      <workItem from="1745761931932" duration="44000" />
+      <workItem from="1745831886513" duration="4962000" />
     </task>
     <task id="LOCAL-00001" summary="Setup project">
       <option name="closed" value="true" />
@@ -71,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745566428906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Setup project pt2">
+      <option name="closed" value="true" />
+      <created>1745566654134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745566654134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +143,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup project" />
+    <MESSAGE value="Setup project pt2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup project pt2" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FVABProject$CombineDatasets.coverage" NAME="CombineDatasets Coverage Results" MODIFIED="1745574721387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dataset Creation/FoudedDatasets" />
+    <SUITE FILE_PATH="coverage/FVABProject$Explore_datasets.coverage" NAME="Explore_datasets Coverage Results" MODIFIED="1745572520534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dataset Creation/FoudedDatasets" />
+    <SUITE FILE_PATH="coverage/FVABProject$ExploreDatasets.coverage" NAME="ExploreDatasets Coverage Results" MODIFIED="1745580425856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dataset Creation/FoudedDatasets" />
+    <SUITE FILE_PATH="coverage/FVABProject$AddClassPerson.coverage" NAME="AddClassPerson Coverage Results" MODIFIED="1745760659668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DatasetCreation/FoundedDatasets" />
+    <SUITE FILE_PATH="coverage/FVABProject$Yolo11Test.coverage" NAME="Yolo11Test Coverage Results" MODIFIED="1745835053428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DatasetCreation" />
+    <SUITE FILE_PATH="coverage/FVABProject$DownloadDatasets.coverage" NAME="DownloadDatasets Coverage Results" MODIFIED="1745759977531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DatasetCreation/FoundedDatasets" />
+    <SUITE FILE_PATH="coverage/FVABProject$FromMatToCSV.coverage" NAME="FromMatToCSV Coverage Results" MODIFIED="1745583934329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dataset Creation/FoudedDatasets" />
+    <SUITE FILE_PATH="coverage/FVABProject$AddGTSRB.coverage" NAME="AddGTSRB Coverage Results" MODIFIED="1745716495919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DatasetCreation/FoundedDatasets" />
   </component>
 </project>

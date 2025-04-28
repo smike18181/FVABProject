@@ -1,0 +1,8 @@
+# Ambiente virtuale
+.venv/
+
+# Dataset generato
+DatasetCreation/FoundedDatasets/combined_dataset/
+
+# created by virtualenv automatically
+.idea

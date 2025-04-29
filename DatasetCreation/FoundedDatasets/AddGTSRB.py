@@ -79,7 +79,7 @@ if __name__ == '__main__':
     # Assicurati che gli ID YOLO partano da 0 e siano consecutivi per tutte le tue classi.
     # Esempio (adatta in base alle TUE classi YOLO):
     class_names_mapping = {
-        stop: 0,   # Esempio: ClassId 0 di GTSRB -> ID 7 in YOLO_CLASSES
+        0: 7,   # Esempio: ClassId 0 di GTSRB -> ID 7 in YOLO_CLASSES
         1: 8,   # Esempio: ClassId 1 di GTSRB -> ID 8 in YOLO_CLASSES
         2: 9,
         3: 10,
